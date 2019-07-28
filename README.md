@@ -11,7 +11,7 @@ the interpolated values at `no` points with equal separation from `0` to `1`.
 
 ## Installation
 
-    python -m pip install .
+    python -m pip install -e git+https://github.com/mfkasim91/dummy-forward-model#egg=dummyfm
 
 ## Usage
 
@@ -27,4 +27,4 @@ where
 * `-n <num-output>` specifies the number of output values (default: 1000)
 * `-o <output-file>` specifies the output file name (default: `output.txt`)
 * `-t <interp-type>` specifies the interpolation type, either: `linear`,
-  `quadratic`, or `cubic` (default: `quadratic`)
+  `quadratic`, or `cubic` (default: `cubic`)

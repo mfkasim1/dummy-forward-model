@@ -10,8 +10,8 @@ def main():
         help="The number of output values (default: 1000)")
     parser.add_argument("-o", type=str, default="output.txt",
         help="The output file name (default: 'output.txt')")
-    parser.add_argument("-t", type=str, default="quadratic",
-        help="Interpolation type (default: 'quadratic')")
+    parser.add_argument("-t", type=str, default="cubic",
+        help="Interpolation type (default: 'cubic')")
     args = parser.parse_args()
 
     # normalize the input arguments
